@@ -532,7 +532,7 @@ void vpanic(const char *fmt, va_list args)
 #if defined(CONFIG_S390)
 	disabled_wait();
 #endif
-	pr_emerg("---[ end Kernel panic - not syncing: %s ]---\n", buf);
+	pr_emerg("---[ you just got kernel panicked'd - not syncing: %s ]---\n", buf);
 
 	/* Do not scroll important messages printed above */
 	suppress_printk = 1;
