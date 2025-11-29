@@ -1,0 +1,23 @@
+!<thin>
+//                                              184       `
+thermal_core.o/
+thermal_sysfs.o/
+thermal_trip.o/
+thermal_helpers.o/
+thermal_thresholds.o/
+thermal_netlink.o/
+thermal_hwmon.o/
+gov_step_wise.o/
+intel/intel_tcc.o/
+intel/therm_throt.o/
+
+/0              0           0     0     644     37796     `
+/16             0           0     0     644     10976     `
+/33             0           0     0     644     2704      `
+/49             0           0     0     644     3716      `
+/68             0           0     0     644     2900      `
+/90             0           0     0     644     17232     `
+/109            0           0     0     644     5656      `
+/126            0           0     0     644     2732      `
+/143            0           0     0     644     6816      `
+/162            0           0     0     644     16512     `

@@ -1,0 +1,1 @@
+savedcmd_arch/x86/entry/built-in.a := rm -f arch/x86/entry/built-in.a;  printf "arch/x86/entry/%s " entry.o entry_32.o syscall_32.o vdso/built-in.a vsyscall/built-in.a | xargs ar cDPrST arch/x86/entry/built-in.a

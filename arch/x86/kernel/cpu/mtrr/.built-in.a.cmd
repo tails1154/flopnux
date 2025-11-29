@@ -1,0 +1,1 @@
+savedcmd_arch/x86/kernel/cpu/mtrr/built-in.a := rm -f arch/x86/kernel/cpu/mtrr/built-in.a;  printf "arch/x86/kernel/cpu/mtrr/%s " mtrr.o if.o generic.o cleanup.o amd.o cyrix.o centaur.o legacy.o | xargs ar cDPrST arch/x86/kernel/cpu/mtrr/built-in.a

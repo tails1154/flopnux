@@ -1,0 +1,43 @@
+!<thin>
+//                                              244       `
+avc.o/
+hooks.o/
+selinuxfs.o/
+netlink.o/
+nlmsgtab.o/
+netif.o/
+netnode.o/
+netport.o/
+status.o/
+ss/ebitmap.o/
+ss/hashtab.o/
+ss/symtab.o/
+ss/sidtab.o/
+ss/avtab.o/
+ss/policydb.o/
+ss/services.o/
+ss/conditional.o/
+ss/mls.o/
+ss/context.o/
+netlabel.o/
+
+/0              0           0     0     644     49732     `
+/7              0           0     0     644     94620     `
+/16             0           0     0     644     35812     `
+/29             0           0     0     644     2628      `
+/40             0           0     0     644     2352      `
+/52             0           0     0     644     3788      `
+/61             0           0     0     644     3608      `
+/72             0           0     0     644     3164      `
+/83             0           0     0     644     1656      `
+/93             0           0     0     644     7836      `
+/107            0           0     0     644     2888      `
+/121            0           0     0     644     1708      `
+/134            0           0     0     644     8736      `
+/147            0           0     0     644     8684      `
+/159            0           0     0     644     41112     `
+/174            0           0     0     644     47512     `
+/189            0           0     0     644     8820      `
+/207            0           0     0     644     7388      `
+/217            0           0     0     644     1108      `
+/231            0           0     0     644     7244      `

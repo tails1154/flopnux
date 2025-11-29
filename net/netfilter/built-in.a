@@ -1,0 +1,82 @@
+!<thin>
+//                                              722       `
+core.o/
+nf_log.o/
+nf_queue.o/
+nf_sockopt.o/
+utils.o/
+nfnetlink.o/
+nfnetlink_log.o/
+nf_conntrack_core.o/
+nf_conntrack_standalone.o/
+nf_conntrack_expect.o/
+nf_conntrack_helper.o/
+nf_conntrack_proto.o/
+nf_conntrack_proto_generic.o/
+nf_conntrack_proto_tcp.o/
+nf_conntrack_proto_udp.o/
+nf_conntrack_proto_icmp.o/
+nf_conntrack_extend.o/
+nf_conntrack_acct.o/
+nf_conntrack_seqadj.o/
+nf_conntrack_proto_icmpv6.o/
+nf_conntrack_netlink.o/
+nf_conntrack_ftp.o/
+nf_conntrack_irc.o/
+nf_conntrack_sip.o/
+nf_nat_core.o/
+nf_nat_proto.o/
+nf_nat_helper.o/
+nf_nat_masquerade.o/
+nf_nat_ftp.o/
+nf_nat_irc.o/
+nf_nat_sip.o/
+x_tables.o/
+xt_tcpudp.o/
+xt_CONNSECMARK.o/
+xt_NFLOG.o/
+xt_SECMARK.o/
+xt_TCPMSS.o/
+xt_conntrack.o/
+xt_policy.o/
+xt_state.o/
+/0              0           0     0     644     12452     `
+/8              0           0     0     644     11652     `
+/18             0           0     0     644     4068      `
+/30             0           0     0     644     2932      `
+/44             0           0     0     644     3980      `
+/53             0           0     0     644     12808     `
+/66             0           0     0     644     14856     `
+/83             0           0     0     644     39464     `
+/104            0           0     0     644     8292      `
+/131            0           0     0     644     12460     `
+/154            0           0     0     644     11388     `
+/177            0           0     0     644     11752     `
+/199            0           0     0     644     960       `
+/229            0           0     0     644     13664     `
+/255            0           0     0     644     2548      `
+/281            0           0     0     644     5052      `
+/308            0           0     0     644     2536      `
+/331            0           0     0     644     1464      `
+/352            0           0     0     644     4156      `
+/375            0           0     0     644     4872      `
+/404            0           0     0     644     33768     `
+/428            0           0     0     644     10340     `
+/448            0           0     0     644     8640      `
+/468            0           0     0     644     30640     `
+/488            0           0     0     644     16488     `
+/503            0           0     0     644     11372     `
+/519            0           0     0     644     4108      `
+/536            0           0     0     644     6872      `
+/557            0           0     0     644     4536      `
+/571            0           0     0     644     4128      `
+/585            0           0     0     644     13592     `
+/599            0           0     0     644     26516     `
+/611            0           0     0     644     5352      `
+/624            0           0     0     644     4508      `
+/642            0           0     0     644     3516      `
+/654            0           0     0     644     6408      `
+/668            0           0     0     644     6772      `
+/681            0           0     0     644     5564      `
+/697            0           0     0     644     4784      `
+/710            0           0     0     644     3460      `

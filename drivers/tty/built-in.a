@@ -1,0 +1,45 @@
+!<thin>
+//                                              284       `
+tty_io.o/
+n_tty.o/
+tty_ioctl.o/
+tty_ldisc.o/
+tty_buffer.o/
+tty_port.o/
+tty_mutex.o/
+tty_ldsem.o/
+tty_baudrate.o/
+tty_jobctrl.o/
+n_null.o/
+pty.o/
+vt/vt_ioctl.o/
+vt/vc_screen.o/
+vt/selection.o/
+vt/keyboard.o/
+vt/vt.o/
+vt/defkeymap.o/
+vt/consolemap.o/
+vt/consolemap_deftbl.o/
+vt/ucs.o/
+
+/0              0           0     0     644     30440     `
+/10             0           0     0     644     15676     `
+/19             0           0     0     644     8056      `
+/32             0           0     0     644     6168      `
+/45             0           0     0     644     4940      `
+/59             0           0     0     644     10024     `
+/71             0           0     0     644     1744      `
+/84             0           0     0     644     2260      `
+/97             0           0     0     644     2428      `
+/113            0           0     0     644     4584      `
+/128            0           0     0     644     2276      `
+/138            0           0     0     644     10856     `
+/145            0           0     0     644     9904      `
+/160            0           0     0     644     7020      `
+/176            0           0     0     644     5724      `
+/192            0           0     0     644     21192     `
+/207            0           0     0     644     46484     `
+/216            0           0     0     644     10352     `
+/232            0           0     0     644     8432      `
+/249            0           0     0     644     1588      `
+/273            0           0     0     644     11316     `

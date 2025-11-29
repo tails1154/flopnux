@@ -1,0 +1,62 @@
+!<thin>
+//                                              364       `
+cacheinfo.o/
+scattered.o/
+topology_common.o/
+topology_ext.o/
+topology_amd.o/
+common.o/
+rdrand.o/
+match.o/
+bugs.o/
+aperfmperf.o/
+cpuid-deps.o/
+cpuid_0x2_table.o/
+umwait.o/
+capflags.o/
+powerflags.o/
+proc.o/
+feat_ctl.o/
+intel.o/
+tsx.o/
+amd.o/
+hygon.o/
+cyrix.o/
+centaur.o/
+transmeta.o/
+umc.o/
+zhaoxin.o/
+vortex.o/
+microcode/core.o/
+microcode/intel.o/
+microcode/amd.o/
+/0              0           0     0     644     7364      `
+/13             0           0     0     644     1404      `
+/26             0           0     0     644     2780      `
+/45             0           0     0     644     2088      `
+/61             0           0     0     644     2652      `
+/77             0           0     0     644     31540     `
+/87             0           0     0     644     1044      `
+/97             0           0     0     644     2024      `
+/106            0           0     0     644     30556     `
+/114            0           0     0     644     3228      `
+/128            0           0     0     644     2440      `
+/142            0           0     0     644     1764      `
+/161            0           0     0     644     2388      `
+/171            0           0     0     644     10264     `
+/183            0           0     0     644     1168      `
+/197            0           0     0     644     3176      `
+/205            0           0     0     644     2024      `
+/217            0           0     0     644     8680      `
+/226            0           0     0     644     3340      `
+/233            0           0     0     644     13744     `
+/240            0           0     0     644     3400      `
+/249            0           0     0     644     4864      `
+/258            0           0     0     644     3016      `
+/269            0           0     0     644     2624      `
+/282            0           0     0     644     1436      `
+/289            0           0     0     644     2224      `
+/300            0           0     0     644     1480      `
+/310            0           0     0     644     5032      `
+/328            0           0     0     644     6388      `
+/347            0           0     0     644     12320     `

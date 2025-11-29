@@ -1,0 +1,25 @@
+!<thin>
+//                                              130       `
+core.o/
+card.o/
+driver.o/
+resource.o/
+manager.o/
+support.o/
+interface.o/
+quirks.o/
+system.o/
+pnpacpi/core.o/
+pnpacpi/rsparser.o/
+
+/0              0           0     0     644     4836      `
+/8              0           0     0     644     6384      `
+/16             0           0     0     644     5688      `
+/26             0           0     0     644     10988     `
+/38             0           0     0     644     8792      `
+/49             0           0     0     644     5008      `
+/60             0           0     0     644     8072      `
+/73             0           0     0     644     7056      `
+/83             0           0     0     644     2852      `
+/93             0           0     0     644     7060      `
+/109            0           0     0     644     10772     `

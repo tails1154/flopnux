@@ -1,0 +1,36 @@
+savedcmd_scripts/mod/empty.o := gcc -Wp,-MMD,scripts/mod/.empty.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated -I./include -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -mno-sse4a -fcf-protection=none -m32 -msoft-float -mregparm=3 -freg-struct-return -fno-pic -mpreferred-stack-boundary=2 -march=i686 -Wa,-mtune=generic32 -ffreestanding -Wno-sign-compare -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -Os -fno-allow-store-data-races -fno-stack-protector -fomit-frame-pointer -ftrivial-auto-var-init=zero -fzero-init-padding-bits=all -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=1024 -Wno-main -Wno-dangling-pointer -Wvla-larger-than=1 -Wno-pointer-sign -Wcast-function-type -Wno-unterminated-string-initialization -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter    -DKBUILD_MODFILE='"scripts/mod/empty"' -DKBUILD_BASENAME='"empty"' -DKBUILD_MODNAME='"empty"' -D__KBUILD_MODNAME=kmod_empty -c -o scripts/mod/empty.o scripts/mod/empty.c  
+
+source_scripts/mod/empty.o := scripts/mod/empty.c
+
+deps_scripts/mod/empty.o := \
+  include/linux/compiler-version.h \
+    $(wildcard include/config/CC_VERSION_TEXT) \
+  include/linux/kconfig.h \
+    $(wildcard include/config/CPU_BIG_ENDIAN) \
+    $(wildcard include/config/BOOGER) \
+    $(wildcard include/config/FOO) \
+  include/linux/compiler_types.h \
+    $(wildcard include/config/DEBUG_INFO_BTF) \
+    $(wildcard include/config/PAHOLE_HAS_BTF_TAG) \
+    $(wildcard include/config/FUNCTION_ALIGNMENT) \
+    $(wildcard include/config/CC_HAS_SANE_FUNCTION_ALIGNMENT) \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/ARM64) \
+    $(wildcard include/config/LD_DEAD_CODE_DATA_ELIMINATION) \
+    $(wildcard include/config/LTO_CLANG) \
+    $(wildcard include/config/HAVE_ARCH_COMPILER_H) \
+    $(wildcard include/config/CC_HAS_COUNTED_BY) \
+    $(wildcard include/config/CC_HAS_MULTIDIMENSIONAL_NONSTRING) \
+    $(wildcard include/config/UBSAN_INTEGER_WRAP) \
+    $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler_attributes.h \
+  include/linux/compiler-gcc.h \
+    $(wildcard include/config/MITIGATION_RETPOLINE) \
+    $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
+    $(wildcard include/config/SHADOW_CALL_STACK) \
+    $(wildcard include/config/KCOV) \
+    $(wildcard include/config/CC_HAS_TYPEOF_UNQUAL) \
+
+scripts/mod/empty.o: $(deps_scripts/mod/empty.o)
+
+$(deps_scripts/mod/empty.o):
