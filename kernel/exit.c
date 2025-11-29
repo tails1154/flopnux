@@ -917,7 +917,7 @@ void __noreturn do_exit(long code)
 		 * immediately to get a useable coredump.
 		 */
 		if (unlikely(is_global_init(tsk)))
-			panic("Attempted to kill init! exitcode=0x%08x\n",
+			panic("Attempted to kill init! You murderer! exitcode=0x%08x\n",
 				tsk->signal->group_exit_code ?: (int)code);
 
 #ifdef CONFIG_POSIX_TIMERS
